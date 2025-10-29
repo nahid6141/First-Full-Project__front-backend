@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("shouldEnableDraftsForCreators",["gkx"],(function(a,b,c,d,e,f,g){"use strict";function a(){return c("gkx")("3649")}g.shouldEnableDraftsForCreators=a}),98);

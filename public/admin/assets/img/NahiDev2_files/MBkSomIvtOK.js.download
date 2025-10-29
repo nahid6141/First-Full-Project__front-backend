@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("CrisisPageSafetyCheckRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="29309190232060172"}),null);
+__d("StoriesThreeDotsMenuRelay3D_enable_relay3d_qe.relayprovider",["qex"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){var a;return(a=c("qex")._("3810"))!=null?a:!1}};g["default"]=a}),98);

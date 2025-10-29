@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("XFBAudioDubStatusType.facebook",["$InternalEnum"],(function(a,b,c,d,e,f){a=b("$InternalEnum").Mirrored(["FAILED","FINISHED","INITIALIZED","INVALID","IN_PROGRESS"]);c=a;f["default"]=c}),66);
+__d("XFBDubTrackType.facebook",["$InternalEnum"],(function(a,b,c,d,e,f){a=b("$InternalEnum").Mirrored(["AUDIO_DESCRIPTION","AUTO_DUB","BYOA"]);c=a;f["default"]=c}),66);

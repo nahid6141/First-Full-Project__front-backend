@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("GroupsCometPostTopicsSettingsDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="24621830364138455"}),null);
+__d("GroupsCometPostTopicsSettingsDialogQuery$Parameters",["GroupsCometPostTopicsSettingsDialogQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("GroupsCometPostTopicsSettingsDialogQuery_facebookRelayOperation"),metadata:{},name:"GroupsCometPostTopicsSettingsDialogQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("GroupsCometPostTopicsSettingsDialog.entrypoint",["GroupsCometPostTopicsSettingsDialogQuery$Parameters","JSResourceForInteraction"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){a=a.groupID;return{queries:{queryReference:{parameters:c("GroupsCometPostTopicsSettingsDialogQuery$Parameters"),variables:{groupID:a}}}}},root:c("JSResourceForInteraction")("GroupsCometPostTopicsSettingsDialog.react").__setRef("GroupsCometPostTopicsSettingsDialog.entrypoint")};g["default"]=a}),98);

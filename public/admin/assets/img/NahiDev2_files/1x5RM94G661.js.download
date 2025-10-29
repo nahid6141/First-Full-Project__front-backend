@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("GroupLeadersEngagementFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("1743660");b=d("FalcoLoggerInternal").create("group_leaders_engagement",a);e=b;g["default"]=e}),98);
+__d("GroupNavMenuActionFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("2341");b=d("FalcoLoggerInternal").create("group_nav_menu_action",a);e=b;g["default"]=e}),98);
+__d("GroupsCometEntityMenuCollapseButtonBadge.react",["fbt","FDSBadge.react","I64","MWChatBadgeCountUpdates.react","react","react-compiler-runtime"],(function(a,b,c,d,e,f,g,h){"use strict";var i,j,k=i||d("react");function a(a){var b=d("react-compiler-runtime").c(3);a=a.communityID;var e;b[0]!==a?(e=(j||(j=d("I64"))).of_string(a),b[0]=a,b[1]=e):e=b[1];a=d("MWChatBadgeCountUpdates.react").useUnseenThreadCount(e);if(a==null||a===0)return null;b[2]===Symbol["for"]("react.memo_cache_sentinel")?(e=k.jsx(c("FDSBadge.react"),{accessibilityText:h._(/*BTDS*/"Collapse menu"),size:9}),b[2]=e):e=b[2];return e}g["default"]=a}),226);

@@ -1,12 +1,16 @@
 <?php
 
+use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 
 // frontend controller
 
-Route::get( '/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index']);
 Route::get('/shop', [HomeController::class, 'shop']);
 Route::get('/return-process', [HomeController::class, 'returnProcess']);
 Route::get('/view-cart', [HomeController::class, 'viewCart']);
@@ -24,7 +28,12 @@ Route::get('/contact-us', [HomeController::class, 'contactUs']);
 
 // admin login controller
 
+Route::get('/admin/login', [AuthController::class, 'adminloginpanel']);
+Auth::routes();
+Route::get('/admin/dashboard', [AdminController::class, 'admindashboard']);
 
+//admin controller
 
-
-
+Route::get('/admin/category/create',[CategoryController::class, 'create']);
+Route::get('/admin/category/list',[CategoryController::class, 'list']);
+Route::post('/admin/category/store', [CategoryController::class, 'store']);

@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("FBReelsDubbingInfoLinkDeferred.react",["deferredLoadComponent","requireDeferredForDisplay"],(function(a,b,c,d,e,f,g){"use strict";a=c("deferredLoadComponent")(c("requireDeferredForDisplay")("FBReelsDubbingInfoLink.react").__setRef("FBReelsDubbingInfoLinkDeferred.react"));g["default"]=a}),98);
+__d("MemoriesCometStoryPickerContainerQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="29606351305678835"}),null);
