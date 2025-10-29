@@ -32,8 +32,10 @@ Route::get('/admin/login', [AuthController::class, 'adminloginpanel']);
 Auth::routes();
 Route::get('/admin/dashboard', [AdminController::class, 'admindashboard']);
 
-//admin controller
+//admin controller(category)
 
 Route::get('/admin/category/create',[CategoryController::class, 'create']);
 Route::get('/admin/category/list',[CategoryController::class, 'list']);
 Route::post('/admin/category/store', [CategoryController::class, 'store']);
+// Route::get('/admin/category/delete/{id}', [CategoryController::class, 'delete']);
+Route::delete('/admin/category/delete/{id}', [CategoryController::class, 'delete'])->name('admin.category.delete');

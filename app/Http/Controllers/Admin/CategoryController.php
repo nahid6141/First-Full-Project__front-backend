@@ -7,6 +7,8 @@ use App\Models\category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
+use function Laravel\Prompts\error;
+
 class CategoryController extends Controller
 {
     public function create()
@@ -30,32 +32,24 @@ class CategoryController extends Controller
         }
 
         $category->save();
-        toastr()->info('Category Created successfully');
+        toastr()->success('Category Created successfully');
         return redirect()->back();
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    
     public function list()
     {
-        return view('admin.category.list');
+        $categories = category::get();
+        return view('admin.category.list', compact('categories'));
+    }
+
+    public function delete($id)
+    {
+        $category = category::find($id);
+
+        toastr()->error('Category deleted successfully');
+        $category->delete();
+        return redirect()->back();
     }
 }
